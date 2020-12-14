@@ -116,7 +116,8 @@ a:hover, .btn-link:hover{text-decoration: none;}
     .dropdown-menu{background-color: transparent;border:0;}
     .dropdown-menu a{color: #fff!important;}
     .dropdown-submenu .dropdown-menu{margin: 0 1rem;}
-    .dropdown-submenu.submenu-show > a.dropdown-toggle::after{transform: rotate(0deg);}
+    #nav-wrap .dropdown-toggle::after{position: absolute;right: 10px;top:10px;}
+    .dropdown-submenu > a.dropdown-toggle::after{transform: rotate(0deg);}
 }
 
 /* Main Slider */
@@ -153,6 +154,7 @@ a:hover, .btn-link:hover{text-decoration: none;}
 
 /* Contents */
 #main-content{padding: 3rem 0;}
+.blk-tit{text-transform: capitalize;}
 
 /* Footer */
 .social-widget iframe{width: 100%!important;}
