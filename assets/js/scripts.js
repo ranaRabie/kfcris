@@ -124,3 +124,19 @@ $('body').on('mouseenter mouseleave','.dropdown',function(e){
       $('[data-toggle="dropdown"]', _d).attr('aria-expanded',_d.is(':hover'));
     },300);
 });
+
+$('.dropdown-submenu').on('mouseenter mouseleave', function(e) {
+    if (!$(this).find('.dropdown-menu').hasClass('show')) {
+      $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+    }
+    var $subMenu = $(this).find('.dropdown-menu');
+    $subMenu.toggleClass('show');
+  
+  
+    $(this).on('hidden.bs.dropdown', function(e) {
+      $('.dropdown-submenu .show').removeClass('show');
+    });
+  
+  
+    return false;
+});
