@@ -115,6 +115,8 @@ a:hover, .btn-link:hover{text-decoration: none;}
 
     .dropdown-menu{background-color: transparent;border:0;}
     .dropdown-menu a{color: #fff!important;}
+    .dropdown-submenu .dropdown-menu{margin: 0 1rem;}
+    .dropdown-submenu.submenu-show > a.dropdown-toggle::after{transform: rotate(0deg);}
 }
 
 /* Main Slider */

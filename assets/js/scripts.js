@@ -126,15 +126,13 @@ $('body').on('mouseenter mouseleave','.dropdown',function(e){
 });
 
 $('.dropdown-submenu').on('mouseenter mouseleave', function(e) {
-    if (!$(this).find('.dropdown-menu').hasClass('show')) {
-      $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
-    }
     var $subMenu = $(this).find('.dropdown-menu');
     $subMenu.toggleClass('show');
+    $(this).toggleClass('submenu-show');
   
-  
-    $(this).on('hidden.bs.dropdown', function(e) {
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
       $('.dropdown-submenu .show').removeClass('show');
+      $('.dropdown-submenu').removeClass('submenu-show');
     });
   
   
