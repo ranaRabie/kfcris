@@ -155,6 +155,9 @@ a:hover, .btn-link:hover{text-decoration: none;}
 /* Contents */
 #main-content{padding: 3rem 0;}
 .blk-tit{text-transform: capitalize;}
+#pg-tit .tit-txt{border-bottom: 1px solid #eee;text-transform: capitalize;font-weight: bold;padding-bottom: .5rem;margin-bottom: 2rem;}
+#pg-tit h1.tit-txt{font-size: 2rem;}
+#pg-tit span{display: block;margin-top: .5rem;}
 
 /* Footer */
 .social-widget iframe{width: 100%!important;}
@@ -182,6 +185,14 @@ a:hover, .btn-link:hover{text-decoration: none;}
 .news-item .img-wrapper img{transition: all 2s ease-in-out;transform: scale(1);}
 .news-item:hover .img-wrapper img{transform: scale(1.3);}
 
+#news-pg .news-item{border: 1px solid #ccc;height: calc(100% - 1rem);border-radius: 2px;overflow: hidden;}
+#news-pg .news-tit{font-size: .95rem;font-weight: 400;margin-bottom: .5rem;padding: 0 1rem;}
+#news-pg .news-item .img-wrapper{border: 0;}
+
+.dets-img-wrapper{border: 1px solid #eee;padding: .5rem;border-radius: 4px;overflow: hidden;max-width: 500px;margin-bottom: 1rem;}
+.video-wrapper{width: 100%;max-width: 500px;margin: 0 auto;}
+.video-wrapper iframe{width: 100%;height: 350px;}
+
 /* Research Papers */
 .paper-item .img-wrapper{border: 1px solid #ddd;border-radius: 4px;padding:0 4px;}
 .paper-item:hover .img-wrapper{border-color:#000;}
@@ -189,9 +200,14 @@ a:hover, .btn-link:hover{text-decoration: none;}
 .paper-desc{text-align: center;margin-top: .8rem;}
 .paper-desc p{margin-bottom: 0;color:#000;transition: all .5s ease-in-out;}
 
+/* Contact Us */
+.map-wrapper iframe{width:100%;height:350px;}
+/* #contact-form{max-width: 600px;margin: 0 auto;width: 100%;} */
 
 /* Forms */
+label{text-transform: capitalize;font-weight: bold;}
 .form-control::placeholder{text-transform: capitalize;}
+
 
 /*************** RESPONSIVE ********************/
 /*Extra small devices (portrait phones, less than 576px)*/
