@@ -126,6 +126,15 @@ body {
   color: #002F44;
 }
 
+.events-nav.nav-pills .nav-link.active {
+  background-color: #005163;
+  color: #fff;
+}
+
+.events-nav.nav-pills .nav-link {
+  color: #005163;
+}
+
 /* Transition */
 a, .btn:before, .nav-item .nav-link:after,
 #header-wrap,

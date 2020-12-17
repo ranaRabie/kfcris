@@ -164,7 +164,7 @@ a:hover, .btn-link:hover{text-decoration: none;}
 
 /* Events */
 .events-wrapper{margin-bottom: -1.5rem;}
-.event-item{margin-bottom:1.5rem;color:#000!important;padding: 1rem 1.5rem;display:flex;justify-content:space-between;flex-wrap:wrap;background: rgb(251,251,251);background: linear-gradient(8deg, rgba(251,251,251,1) 0%, rgba(247,250,250,1) 0%, rgba(246,252,252,1) 100%);border-radius: 15px;-webkit-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);-moz-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);}
+.event-item{height: calc(100% - 1.5rem);margin-bottom:1.5rem;color:#000!important;padding: 1rem 1.5rem;display:flex;justify-content:space-between;align-items: flex-start;flex-wrap:wrap;background: rgb(251,251,251);background: linear-gradient(8deg, rgba(251,251,251,1) 0%, rgba(247,250,250,1) 0%, rgba(246,252,252,1) 100%);border-radius: 15px;-webkit-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);-moz-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.75);}
 .event-item:hover{box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.75);}
 .event-d{margin-right:.5rem;background-color:#fff;text-align: center;border-radius: 5px;overflow: hidden;width: 75px;margin-bottom: .5rem;}
 .event-d-top{padding: .3rem .2rem;background: linear-gradient(180deg,#0d1012 0,#1b323e);display:block;color:#fff;text-transform: uppercase;}
@@ -173,7 +173,12 @@ a:hover, .btn-link:hover{text-decoration: none;}
 .event-dets{font-size: .9rem;text-transform: capitalize;}
 .event-desc{flex: 0 0 100%;margin-top:1.3rem;text-align: justify;}
 
-/* .event-d, .event-desc{font-family: Arial, Helvetica, sans-serif;} */
+#events-pg .events-nav .nav-link {padding: .2rem 1rem;font-size: 1.2rem;}
+#events-pg .event-item{position: relative;padding: 0;overflow: hidden;}
+#events-pg .event-d{position: absolute;top: 1rem;left: 0;width: auto;padding: .1rem .5rem;border-radius: 0 2px 2px 0;}
+#events-pg .img-wrapper{height: 150px;overflow: hidden;}
+#events-pg .event-dets{margin: 0;padding: 1rem 1rem 0;}
+#events-pg .event-desc{margin: 0;padding: 1rem;}
 
 /* News */
 .h-news{background: url(../images/pattern-bg.jpg) repeat;color:#fff;padding:3rem 0;}
