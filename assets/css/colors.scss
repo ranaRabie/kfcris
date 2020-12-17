@@ -93,8 +93,9 @@ body{color: map-get($colors, main);}
 
 /**/
 .paper-item:hover .paper-desc p{color:map-get($colors, primary );}
-.events-nav.nav-pills .nav-link.active{background-color: map-get($colors, secondary );color: #fff;}
-.events-nav.nav-pills .nav-link{color: map-get($colors, secondary );}
+.events-nav.nav-pills .nav-link.active, .page-item.active .page-link{background-color: map-get($colors, secondary );color: #fff;border-color: map-get($colors, secondary );}
+.events-nav.nav-pills .nav-link, .page-link{color: map-get($colors, secondary );}
+#papers-pg .btn-link{color: map-get($colors, secondary );}
 
 /* Transition */
 a, .btn:before, .nav-item .nav-link:after,

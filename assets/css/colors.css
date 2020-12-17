@@ -126,12 +126,17 @@ body {
   color: #002F44;
 }
 
-.events-nav.nav-pills .nav-link.active {
+.events-nav.nav-pills .nav-link.active, .page-item.active .page-link {
   background-color: #005163;
   color: #fff;
+  border-color: #005163;
 }
 
-.events-nav.nav-pills .nav-link {
+.events-nav.nav-pills .nav-link, .page-link {
+  color: #005163;
+}
+
+#papers-pg .btn-link {
   color: #005163;
 }
 

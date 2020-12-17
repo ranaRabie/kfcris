@@ -158,6 +158,7 @@ a:hover, .btn-link:hover{text-decoration: none;}
 #pg-tit .tit-txt{border-bottom: 1px solid #eee;text-transform: capitalize;font-weight: bold;padding-bottom: .5rem;margin-bottom: 2rem;}
 #pg-tit h1.tit-txt{font-size: 2rem;}
 #pg-tit span{display: block;margin-top: .5rem;}
+.pagination {margin: 2rem 0 0;justify-content: center;}
 
 /* Footer */
 .social-widget iframe{width: 100%!important;}
@@ -204,6 +205,15 @@ a:hover, .btn-link:hover{text-decoration: none;}
 .paper-item .img-wrapper img{margin:4px 0;}
 .paper-desc{text-align: center;margin-top: .8rem;}
 .paper-desc p{margin-bottom: 0;color:#000;transition: all .5s ease-in-out;}
+
+#papers-pg .card {margin-bottom: .5rem;}
+#papers-pg .card .card-header{border-bottom:0;padding: .3rem 1rem;}
+#papers-pg .card-header .btn-link{width: 100%;font-weight: bold;font-size: 1.1rem;text-align: initial;position: relative;}
+#papers-pg .card-header .btn-link span{display: block;}
+#papers-pg .res-paper-item .p-num{position: absolute;top: 0px;right: -5px;width: 30px;height: 30px;background: #fff;display: flex!important;align-items: center;justify-content: center;border-radius: 50%;background: #e0e0e0;border: 1px solid #d2d2d2;}
+#papers-pg .res-paper-item .p-date{font-size: 1rem;}
+#papers-pg .res-paper-item .p-name{font-size: 1.2rem;width: 100%;overflow: hidden;text-overflow: ellipsis;}
+#papers-pg .res-paper-item .dets-img-wrapper{max-width: 300px;}
 
 /* Contact Us */
 .map-wrapper iframe{width:100%;height:350px;}
