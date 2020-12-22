@@ -59,6 +59,7 @@ function mobOpenMainMenu(){
 function Owls(){
     if($('#main-slider-inner').hasClass('owl-carousel')){
         $('#main-slider-inner.owl-carousel').owlCarousel({
+            rtl: rtlCheck,
             items:1,
             lazyLoad:true,
             loop:true,
