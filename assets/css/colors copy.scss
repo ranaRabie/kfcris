@@ -7,8 +7,7 @@ $colors: (
         Fourthly: #63829e,
         blueColor: #337ab7,
         
-        light: #cccccc,
-
+        
         mainGradColor1: #039C78, // Gradient Color 1 Intro Bg 
         mainGradColor2: #053868, // Gradient Color 2 Intro Bg
         
@@ -62,9 +61,6 @@ body{color: map-get($colors, main);}
 .btn-blue{
   background-color:  map-get($colors, blueColor) !important;
 }
-.bg-light{
-  background-color:  map-get($colors, light) !important;
-}
 
 .bg-primary-gradient-x {
   background: map-get($colors, primary);
@@ -82,8 +78,10 @@ body{color: map-get($colors, main);}
 .dropdown-list li a:hover{color: map-get($colors, primary );background-color: map-get($colors, primaryLight1 );}
 
 /* Headers */
-#nav-wrap{background-color: map-get($colors, primary );}
+#top-bar, #nav-wrap{background-color: map-get($colors, primary );}
+#header-wrap{background-color: map-get($colors, secondary );}
 #top-bar, #top-bar a{color: map-get($colors, whiteColor );}
+#top-bar .top-seperate{color:map-get($colors, Fourthly );}
 #nav-wrap .navbar-nav .nav-link {color: map-get($colors, whiteColor )!important;}
 #nav-wrap .navbar-nav > li > .nav-link:hover{background-color: #f7f7f7;color: map-get($colors, primary )!important;}
 #nav-wrap .navbar-nav .dropdown-menu a:hover{background-color: map-get($colors, primary );color: map-get($colors, whiteColor )!important;}
@@ -91,17 +89,13 @@ body{color: map-get($colors, main);}
 /* Footer */
 #main-footer{color: #E6E6E6;}
 #footer-wrap{background-color: map-get($colors, secondary );}
-#copyright{color: #fff;background-color: map-get($colors, primary );}
+#copyright{color: #5899A9;background-color: map-get($colors, primary );}
 
 /**/
-.blk-tit-style{background-color: map-get($colors, secondary );}
-.blk-tit.pattern-blk{background-color: map-get($colors, secondary );}
-.paper-item .paper-desc p{color:map-get($colors, primary );}
-.paper-item:hover .paper-desc p{color:map-get($colors, secondary );}
+.paper-item:hover .paper-desc p{color:map-get($colors, primary );}
 .events-nav.nav-pills .nav-link.active, .page-item.active .page-link{background-color: map-get($colors, secondary );color: #fff;border-color: map-get($colors, secondary );}
 .events-nav.nav-pills .nav-link, .page-link{color: map-get($colors, secondary );}
 #papers-pg .btn-link{color: map-get($colors, secondary );}
-.event-item-2{color: map-get($colors, primary )!important;}
 
 /* Transition */
 a, .btn:before, .nav-item .nav-link:after,

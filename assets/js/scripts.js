@@ -63,7 +63,7 @@ function Owls(){
             items:1,
             lazyLoad:true,
             loop:true,
-            dots: true,
+            dots: false,
             nav: true,
             autoplay:true,
             autoplayTimeout:2500,
