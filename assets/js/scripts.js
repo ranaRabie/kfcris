@@ -41,13 +41,15 @@ function mobCloseMainMenu(){
         $('.navbar-nav').delay(0).animate({left: '-100%'}, 1000);
     }
     setTimeout(function(){
-        $('.navbar-collapse').fadeOut(500);
+        $('.navbar-collapse').removeClass('showIt');
+        $('.navbar-collapse').addClass('hideIt');
     }, 100);
 }
 
 function mobOpenMainMenu(){
     setTimeout(function(){
-        $('.navbar-collapse').fadeIn(500);
+        $('.navbar-collapse').removeClass('hideIt');
+        $('.navbar-collapse').addClass('showIt');
     }, 100);
     if(rtlCheck == true){
         $('.navbar-nav').delay(0).animate({right: '0'}, 1000);
