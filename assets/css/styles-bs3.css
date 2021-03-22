@@ -4,7 +4,6 @@
 .pb-0{padding-bottom: 0!important;}
 .text-white{color:#fff;}
 
-
 .mb-4, .my-4 {margin-bottom: 24px!important;}
 .mt-4, .my-4 {margin-top: 24px!important;}
 .mb-2, .my-2 {margin-bottom: 8px!important;}
@@ -199,6 +198,10 @@ a:hover, a:active{text-decoration: none!important;}
 .nav-link {
     display: block;
     padding: 10px 16px!important;
+}
+#nav-wrap .navbar-nav>li ,
+#nav-wrap .dropdown-menu {
+    float: none!important;
 }
 .dropdown-menu {
     font-size: 16px;
